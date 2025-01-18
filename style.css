@@ -1,7 +1,41 @@
 body{
       font-family: Roboto;
+      margin: 0px;
+      padding: 0px;
 }
 
-.section-1{
+.Section-1, .Section-2, .Section-3, .Section-4, footer{
+    padding: 10px 200px;
+}
+
+.Section-1{
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+li{
+    display: flex;
+    font-weight: normal;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 8px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
 }
