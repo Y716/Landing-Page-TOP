@@ -83,6 +83,49 @@ button{
     font-weight: bold;
 }
 
+.Section-2{
+
+}
+
+.heading-2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin:50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 75px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.box{
+    border: #3882F6 solid;
+    border-radius: 8px;
+    background: none;
+    width: 150px;
+    height: 150px;
+    /* align-self: center; */
+  }
+
+  .subtext-box{
+    color: #1F2937;
+    width: 150px;
+  }
+
+.Section-3{
+    background-color: #E5E7EB;
+}
+
 footer{
     background-color: #1F2937;
     display: flex;
