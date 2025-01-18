@@ -45,7 +45,7 @@ a{
     justify-content: space-between;
 }
 
-li, .subtext, footer{
+li, .subtext, footer, .subtext-cta{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -73,7 +73,7 @@ li, .subtext, footer{
   /* flex: 4; */
 }
 
-button{
+.button-S1{
     color: #F9FAF8;
     background-color: #3882F6;
     border: none;
@@ -124,6 +124,58 @@ button{
 
 .Section-3{
     background-color: #E5E7EB;
+    padding: 50px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author{
+    font-size: 25px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.Section-4{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 50px 100px;
+    width: 1000px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-cta{
+    font-weight: bold;
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+.subtext-cta{
+    font-weight: lighter;
+}
+
+.button-cta{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: solid;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 footer{
@@ -132,5 +184,5 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 25px;
-    font-weight: lighter;
+    font-weight: 300;
 }
