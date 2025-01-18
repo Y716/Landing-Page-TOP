@@ -45,7 +45,7 @@ a{
     justify-content: space-between;
 }
 
-li, .subtext{
+li, .subtext, footer{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -83,3 +83,11 @@ button{
     font-weight: bold;
 }
 
+footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-weight: lighter;
+}
